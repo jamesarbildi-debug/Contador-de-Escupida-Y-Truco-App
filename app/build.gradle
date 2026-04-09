@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.truco'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.truco"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {}
+    }
+}
+
+dependencies {}
